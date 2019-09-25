@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: PingFangSC-Regular;
+  color: #333;
+}
+html,
+body {
+  font-size: 30px;
+  overflow: hidden;
+  overflow-y: auto;
+  width: 100%;
+}
+html {
+  background-color: #f8f9fc;
+}
+body {
+  background-color: #fff;
+  padding: 1rem;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.disabled {
+  background-color: #ccc !important;
+}
+input {
+  outline: none;
+}
+.bottBor {
+  border-bottom: 1px solid #edeef0;
+}
+@media only screen and (min-width: 320px) {
+  body,
+  html {
+    font-size: 12.8px;
+  }
+}
+@media only screen and (min-width: 360px) {
+  body,
+  html {
+    font-size: 14.4px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  body,
+  html {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 390px) {
+  body,
+  html {
+    font-size: 15.6px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  body,
+  html {
+    font-size: 16.56px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  body,
+  html {
+    font-size: 19.2px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body,
+  html {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 980px) {
+  body,
+  html {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body,
+  html {
+    font-size: 40px;
+  }
+}
